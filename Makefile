@@ -26,5 +26,5 @@ build:
 
 .PHONY: tools
 tools: deps
-	@go install github.com/vektra/mockery/v2@v2.36.0
+	@go install github.com/vektra/mockery/v2@v2.35.4
 	@go install github.com/goreleaser/goreleaser@v1.21.2
